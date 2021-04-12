@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AccountDemo</name>
+    </assembly>
+    <members>
+        <member name="M:AccountDemo.Controllers.TransactionController.Add(AccountDemo.Dto.TransactionAddDto)">
+            <summary>
+            Add new Transaction.
+            </summary>
+            <param name="transactionDto">Transaction data transfer object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AccountDemo.Controllers.TransactionController.Reverse(System.Guid)">
+            <summary>
+            Revere a Transaction.
+            </summary>
+            <param name="id">Transaction Id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AccountDemo.Controllers.TransactionController.GetBalance(System.String)">
+            <summary>
+            Get the Account Balance.
+            </summary>
+            <param name="accountCode">Account code.</param>
+            <returns></returns>
+        </member>
+        <member name="P:AccountDemo.Dto.TransactionAddDto.TransactionId">
+            <summary>
+            Transaction Id
+            </summary>
+        </member>
+        <member name="P:AccountDemo.Dto.TransactionAddDto.TransactionDate">
+            <summary>
+            Transaction date
+            </summary>
+        </member>
+        <member name="P:AccountDemo.Dto.TransactionAddDto.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:AccountDemo.Dto.TransactionAddDto.Amount">
+            <summary>
+            Amount
+            </summary>
+        </member>
+        <member name="P:AccountDemo.Dto.TransactionAddDto.FromPayee">
+            <summary>
+            From payee
+            </summary>
+        </member>
+        <member name="P:AccountDemo.Dto.TransactionAddDto.AccountId">
+            <summary>
+            Account Id (1)
+            </summary>
+        </member>
+    </members>
+</doc>

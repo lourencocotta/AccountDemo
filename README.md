@@ -1,6 +1,6 @@
 # AccountDemo
 
-## Technologies/Patterns
+## Technologies/Patterns (positives characteristic)
 - .NET Core 5.0
 - ASP .NET Core 5.0
 - Swagger (Documentation)
